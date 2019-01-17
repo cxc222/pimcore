@@ -6,11 +6,10 @@ return [
         "path_variable"            => "",
         "domain"                   => "pimcore-test.dev",
         "redirect_to_maindomain"   => false,
-        "language"                 => "en",
-        "validLanguages"           => "en,de",
+        "language"                 => "zh_cn",
+        "validLanguages"           => "zh_cn",
         "fallbackLanguages"        => [
-            "en" => "",
-            "de" => ""
+            "zh_cn" => ""
         ],
         "defaultLanguage"          => "",
         "loginscreencustomimage"   => "",
