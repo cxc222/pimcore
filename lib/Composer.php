@@ -180,7 +180,7 @@ class Composer
          * @var $operation UpdateOperation
          */
         $operation = $event->getOperation();
-        if ($operation->getInitialPackage()->getName() == 'pimcore/pimcore') {
+        if ($operation->getInitialPackage()->getName() == 'cxc222/pimcore') {
             $operation->getInitialPackage()->getSourceReference();
             $operation->getInitialPackage()->getDistReference();
 
