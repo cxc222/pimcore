@@ -33,7 +33,7 @@ class Version
 
     protected static function getVersionPart($part = self::PART_NUMBER)
     {
-        $parts = explode('@', Versions::getVersion('pimcore/pimcore'));
+        $parts = explode('@', Versions::getVersion('cxc222/pimcore'));
 
         return $parts[$part];
     }
