@@ -3,7 +3,7 @@
 set -euv
 
 rm -rf tmp-docs
-git clone https://github.com/pimcore/pimcore-docs.git tmp-docs/pimcore-docs
+git clone https://github.com/cxc222/pimcore-docs.git tmp-docs/pimcore-docs
 cd tmp-docs/pimcore-docs
 
 # check out latest pimcore-docs release
