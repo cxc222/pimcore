@@ -9,6 +9,6 @@
     }
   ],
   "require": {
-    "pimcore/pimcore": "@dev"
+    "cxc222/pimcore": "@dev"
   }
 }
